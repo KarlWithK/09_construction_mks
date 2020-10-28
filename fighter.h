@@ -1,7 +1,7 @@
 #ifndef FIGHTER
 #define FIGHTER
 struct fighter {
-  char *name;
+  char *street_name;
   int powerlevel;
   int times_revieved;
 };
