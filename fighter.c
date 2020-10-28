@@ -26,4 +26,4 @@ void increase_deaths(struct fighter *street_name) {
   street_name->times_revieved++;
 }
 
-void clear_fighter(struct fighter *fighter_name) { free(fighter_name); }
+void clear_fighter(struct fighter *fighter_name) { free(fighter_name->name), free(fighter_name); }
