@@ -2,7 +2,7 @@
 .PHONY: run clean
 CC= gcc
 CFLAGS= -Wall -Wextra -Wpedantic -Wuninitialized -Wundef -Wcast-align -Wstrict-overflow=2 -Wwrite-strings -Wno-format-nonliteral
-BINARY=main
+BINARY=fighters
 OBJECTS= main.o fighter.o
 
 $(BINARY): $(OBJECTS)
