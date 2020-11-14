@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Testing plugin
 void print_fighter(struct fighter *street_name) {
   printf("Fighter's street name: %s, powerlevel: %d, times killed: %d\n",
          street_name->street_name, street_name->powerlevel,

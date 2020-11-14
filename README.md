@@ -1,2 +1,2 @@
 # 09_construction_mks
-c only
+c only - just testing out structs in c. Totally not objects.
