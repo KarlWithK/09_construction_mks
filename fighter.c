@@ -12,14 +12,14 @@ void print_fighter(struct fighter *street_name) {
 struct fighter *create_fighter(char *street_name, int level, int deaths) {
   struct fighter *mars = malloc(sizeof(struct fighter));
   // Pointing to a char pointer so have to use this function below
-  mars->street_name= strdup(street_name);
+  mars->street_name = strdup(street_name);
   mars->powerlevel = level;
   mars->times_revieved = deaths;
   return mars;
 }
 
 void change_street_name(struct fighter *street_name, char *new_steet_name) {
-  street_name->street_name= strdup(new_steet_name);
+  street_name->street_name = strdup(new_steet_name);
 }
 
 void increase_deaths(struct fighter *street_name) {
